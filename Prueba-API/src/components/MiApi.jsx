@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { Button, Card, Container } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Buscador from "./Buscador"
-import { fetchPaises } from "./Resources/api"
+import { fetchPaises } from "../Resources/api"
 
 function MiApi() {
     const [paises, setPaises] = useState([])
